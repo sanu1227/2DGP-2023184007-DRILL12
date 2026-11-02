@@ -1,8 +1,8 @@
 #게임 월드 리스트 초기화
-world = [ [], [] ]  #객체들의 리스트, 빈 리스트
+world = [ [], [], [] ]  #객체들의 리스트, 빈 리스트
 
 #객체들을 리스트에 추가하는 함수
-def add_object(o, depth = 0):
+def add_object(o, depth ):
     world[depth].append(o)
 
 def remove_object(o):
